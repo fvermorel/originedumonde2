@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>L’origine du Monde</name>
+
+    <description>
+        Le Chaos originel, la grande guerre des titans et des dieux et l’avénement de Zeus, roi du monde.
+    </description>
+
+ <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
+      Oracle Editions
+    </author>
+	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="tablet" />
+	<icon src="icon.png" platform="ios" />
+	<icon src="icon-152.png" platform="ios" width="152" height="152" />
+	<icon src="icon-120.png" platform="ios" width="120" height="120" />
+	<icon src="icon-76.png" platform="ios" width="76" height="76" />
+	<icon src="icon-72.png" platform="ios" width="72" height="72" />
+	<icon src="icon-57.png" platform="ios" width="57" height="57" />
+	
+	
+	<splash src="splash.png" platform="ios" width="1024" height="768" />
+	
+	<splash src="splash-portrait.png" platform="ios" width="768" height="1024" />
+	<splash src="splash-568h.png" platform="ios" width="640" height="1136" />
+
+
+	<preference name="splash-screen-duration" value="5000"/>
+	<preference name="DisallowOverscroll" value="true" />
+
+<preference name="webviewbounce" value="false" />
+
+	<plugin name="cordova-plugin-inappbrowser" spec="1.1.1" />
+
+</widget>
